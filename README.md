@@ -3,6 +3,7 @@ This is a simple chat application built using .NET (C#) and React. The applicati
 
 ### Where can i see the website in action ?
 The website is hosted on azure : [Webbing](https://webbingz.azurewebsites.net/ "Webbing")
+---
 
 ### Features
 * Real-time communication: Users can send and receive messages instantly, creating a seamless chatting experience.
@@ -19,6 +20,6 @@ The website is hosted on azure : [Webbing](https://webbingz.azurewebsites.net/ "
 2. Add your friends or your self.
 3. Start sending and receiving messages in real-time.
 4. Enjoy seamless communication with other users.
----
+
 ### Contributing
 Contributions to the chat application are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on the GitHub repository.
