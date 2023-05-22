@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webbing", "Webbing\Webbing.csproj", "{FCC17A03-9294-48D8-AA44-10B241E1B4F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC17A03-9294-48D8-AA44-10B241E1B4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC17A03-9294-48D8-AA44-10B241E1B4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC17A03-9294-48D8-AA44-10B241E1B4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC17A03-9294-48D8-AA44-10B241E1B4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C33E8E17-F5CD-43FD-9D56-AECE5AA6899F}
+	EndGlobalSection
+EndGlobal
