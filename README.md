@@ -23,11 +23,11 @@ This is a simple chat application built using .NET (C#) and React. The applicati
 4. Build the solution to restore NuGet packages and compile the code.
 5. Navigate to the clientApp folder in a terminal or command prompt.
 6. Install the required dependencies by running the following command:
-``` sql
+``` 
   npm install
 ```
 7. Start the development server by running the command:
-``` sql
+``` 
   npm start
 ```
 8. Open your web browser and navigate to http://localhost:3000 to access the chat application.
