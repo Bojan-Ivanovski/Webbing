@@ -16,6 +16,22 @@ This is a simple chat application built using .NET (C#) and React. The applicati
 * React: The frontend of the application is developed using React, a popular JavaScript library for building user interfaces.
 * HTML/CSS: The frontend user interface is created using HTML and CSS to provide an intuitive and visually appealing experience.
 
+### Installation
+1. Clone the repository to your local machine.
+2. Place everything in a folder called "Webbing" except the .sln file, or alternatively, just move the .sln file one folder back.
+3. Open the solution file (.sln) in Visual Studio or your preferred .NET development environment.
+4. Build the solution to restore NuGet packages and compile the code.
+5. Open the client folder in a terminal or command prompt.
+6. Install the required dependencies by running the following command:
+  ``` JavaScript
+    npm install
+  ```
+7. Start the development server by running the command:
+ ``` JavaScript
+    npm start
+  ```
+8. Open your web browser and navigate to http://localhost:3000 to access the chat application.
+
 ### Usage
 1. Create a new account or log in with your existing credentials.
 2. Add your friends or your self.
