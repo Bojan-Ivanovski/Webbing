@@ -1,4 +1,6 @@
 # Webbing
 A simple chat application
-U can view the website on the next link :
-# webbingz.azurewebsites.net
+
+# Where can i see the website in action ?
+The website is hosted on azure : https://webbingz.azurewebsites.net/
+[Webbing](https://webbingz.azurewebsites.net/ "Webbing")
