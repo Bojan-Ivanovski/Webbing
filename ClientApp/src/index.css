@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+::-webkit-scrollbar{display: none;}
+body{background-color: #131416;;}
+*{margin: 0;}
+.Body
+{
+    height: 100vh;
+    display: flex;
+}
+
+
+
+
+
+/*HEAD*/
+.Head
+{
+    z-index: 1;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    background-color: #0b0c0e;
+}
+.Head h1
+{
+    margin-left: 1%; 
+    user-select: none;
+    font-family: 'Foldit', cursive; 
+}
+.Head h2
+{
+    cursor: pointer;
+    margin-right: 2%; 
+    user-select: none;
+    font-family: 'Foldit', cursive; 
+}
+.Head h2:hover
+{
+    transform: rotate(20deg);
+    transition: 1s;
+}
+
+/*LEFT SIDE*/
+.Left-Side
+{
+    position: relative;
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    background-color: #131416;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+/*Dialog*/
+.Dialog
+{
+    position: absolute;
+    background-color: rgba(37, 37, 37, 0.534);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dialog h1
+{
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    background-color: #14161a;
+    color: #DA0037;
+}
+
+
+
+/*SEARCH AND ADD*/
+.Search-Add
+{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+}
+.Search-Add input,.Search-Add button
+{
+    width: 80%;
+    padding: 3%;
+    color: white;
+    font-size: large;
+    border: 1px solid #DA0037;
+    background-color: rgb(27, 27, 27);
+}
+.Search-Add input::placeholder
+{
+    user-select: none;
+    color: #DA0037;
+}
+.Search-Add button
+{
+    width: 20%;
+}
+.Search-Add button:hover
+{
+    background-color: #131416;
+    user-select: none;
+    color: #DA0037;
+    cursor: pointer;
+}
+
+
+
+/*SELECT PERSON*/
+.Person-Selector
+{
+    padding: 2%;
+    margin-top: 3%;
+    user-select: none;
+    color: white;
+    border: 1px solid #DA0037;
+    background-color: #0b0c0e;
+}
+.Person-Selector:hover
+{
+    cursor: pointer;
+    background-color: #14161a;
+}
+.Person-Selector h1,h4{font-weight: 300;}
+.Person-Container{overflow-y: scroll;}
+
+
+
+
+
+/*RIGHT SIDE*/
+.Right-Side
+{
+    width: 60%;
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 60px;
+    position: relative;
+    background-color: #131416;
+}
+.Horizontal
+{
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #DA0037;
+}
+.Right
+{
+    right: 0;
+    rotate: 180deg;
+}
+
+
+
+
+
+/*CHAT*/
+.Chat
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #1b1c1f;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+/*CHAT TOP*/
+.Chat-Top
+{
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+    user-select: none;
+    background-color: #0b0c0e;
+}
+.Chat-Top h3{font-weight: 300;}
+
+
+
+
+
+/*CHAT MIDDLE*/
+.Chat-Middle
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Chat-Container
+{
+    height: 100%;
+    overflow-y: scroll;
+}
+.Chat-Bubble
+{
+    padding: 15px;
+    color: white;
+    max-width: 40%;
+    width: fit-content;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    word-break: break-all;
+    border: 1px solid #DA0037;
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+
+
+/*CHAT BOTTOM*/
+.Chat-Bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.Chat-Bottom textarea
+{
+    margin-left: 15px;
+    width: 80%;
+    padding: 1%;
+    resize: none; 
+    color: white;
+    font-size: larger;
+    border: 1px solid #DA0037;
+    background-color: rgb(27, 27, 27);
+}
+.Chat-Bottom button
+{
+    margin-right: 15px;
+    width: 20%;
+    height: 100%;
+    border-left: 0;
+    cursor: pointer;
+    color: #DA0037;
+    border: 1px solid #DA0037;
+    background-color: rgb(19, 16, 16);
+}
+.Chat-Bottom button:hover{background-color: #0b0c0e;}
+.Chat-Bottom textarea::placeholder{color: #DA0037;}

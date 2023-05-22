@@ -1,0 +1,68 @@
+.Info
+{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #DA0037;
+}
+
+.Account
+{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Login,.Register
+{
+    border: 1px solid #DA0037;
+    color: #DA0037;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Register
+{
+    height: 70%;
+    width: 45%;
+}
+
+.Login input, .Register input
+{
+    border-radius: 5px;
+    margin: 5%;
+    margin-top: 0;
+    padding: 10px;
+    font-size: larger;
+}
+.Login h1, .Register h1{margin-bottom: 5%;}
+
+.Login button, .Register button
+{
+    border-radius: 5px;
+    margin: 5%;
+    margin-top: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 850px) {
+    .Account
+    {
+        flex-direction: column;
+    }    
+    .Login,.Register
+    {
+        height: 40%;
+        width: 70%;
+    }
+}
